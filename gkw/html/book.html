@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>立体书城</title>
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+    <style type="text/css">
+        .cap:hover{
+            background: #940000;
+        }
+        .foot_a:hover{
+            background:#B60001;
+        }
+        .foot_a a:hover{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav">
+    <div class="navi">
+        <div class="nav_left">
+        </div>
+        <div class="nav_center">
+            <ul class="nav_ul">
+                <li class="cap"><a href="index.html">首页</a></li>
+                <li class="cap"><a href="book.html">立体教材</a></li>
+                <li class="cap"><a href="resource.html">资源中心</a></li>
+                <li class="cap"><a href="test.html">试题中心</a></li>
+                <li class="cap"><a href="views.html">新闻中心</a></li>
+               <!-- <li class="cap"><a href="views.html">关于我们</a></li>-->
+            </ul>
+        </div>
+        <div class="nav_right">
+            <span> <a href="#">加入收藏</a></span>|<span><a href="#">联系我们</a></span>
+        </div>
+    </div>
+</div>
+<div class="tbody">
+    <div class="book_head">
+        <a class="head1">新书上架</a>
+        <a class="head2">首页&nbsp></a>
+        <a class="head3">新书上架</a>
+    </div>
+    <div class="main">
+        <div class="book_input">
+
+                <select  style="border-radius: 5px">
+                    <option>按书名</option>
+                </select>
+
+            <!--<ul  style="border-radius: 5px">
+                <li>选择分类</li>
+                <li>选择分类</li>
+            </ul>
+            <ul  style="border-radius: 5px">
+                <li>选择出版社</li>
+                <li>选择出版社</li>
+            </ul>-->
+            <input type="text" class="text" placeholder="输入关键字">
+            <input type="button" value="搜索" class="button">
+            <input type="reset" value="清空" class="reset">
+        </div>
+<!--主体侧栏-->
+        <div class="list">
+            <div class="kind">
+                <h3>图书分类</h3>
+                <ul id="js-type">
+                    <li data-value="其他"><button>其他</button></li>
+                    <li data-value="医疗"><button>医疗</button></li>
+                    <li data-value="科学"><button>科学</button></li>
+                    <li data-value="其他"><button>其他</button></li>
+                    <li data-value="其他"><button>其他</button></li>
+                    <li data-value="其他"><button>其他</button></li>
+                    <li data-value="其他"><button>地方</button></li>
+                    <li data-value="其他"><button>其他</button></li>
+                </ul>
+            </div>
+
+            <div class="new_list">
+                <h4> <span>图书分类</span> > <span id="locations">学前教育</span></h4>
+                <ul>
+                    <li >
+                        <img src="../img/newbook.jpg" >
+                        <h5>立体书城精选集</h5>
+                        <p>北京市西城区紧邻中南海“红墙”，特殊的区位是一份光荣，更是一份使命。
+                            西城区广大党员干部深刻领悟到，红墙意识的根本就在于“人民”二字
+                        </p>
+                        <p> <span>作者：合肥华润</span>  <span>出版日期：2012/85/3</span> </p>
+                        <p> <span>书号：合肥华润</span>  <span>定价： <a >¥59.00</a></span> </p>
+                        <a href="book-details.html">  <button >内容简介</button>   </a> <button>资源浏览</button>
+                    </li>
+
+                    <li >
+                        <img src="../img/newbook.jpg" >
+                        <h5>立体书城精选集</h5>
+                        <p>北京市西城区紧邻中南海“红墙”，特殊的区位是一份光荣，更是一份使命。
+                            西城区广大党员干部深刻领悟到，红墙意识的根本就在于“人民”二字
+                        </p>
+                        <p> <span>作者：合肥华润</span>  <span>出版日期：2012/85/3</span> </p>
+                        <p> <span>书号：合肥华润</span>  <span>定价： <a >¥59.00</a></span> </p>
+                        <a href="book-details.html">  <button >内容简介</button>   </a>   <button>资源浏览</button>
+                    </li>
+
+                    <li >
+                        <img src="../img/newbook.jpg" >
+                        <h5>立体书城精选集</h5>
+                        <p>北京市西城区紧邻中南海“红墙”，特殊的区位是一份光荣，更是一份使命。
+                            西城区广大党员干部深刻领悟到，红墙意识的根本就在于“人民”二字
+                        </p>
+                        <p> <span>作者：合肥华润</span>  <span>出版日期：2012/85/3</span> </p>
+                        <p> <span>书号：合肥华润</span>  <span>定价： <a >¥59.00</a></span> </p>
+                        <a href="book-details.html">  <button >内容简介</button>   </a>   <button>资源浏览</button>
+                    </li>
+
+                    <li >
+                        <img src="../img/newbook.jpg" >
+                        <h5>立体书城精选集</h5>
+                        <p>北京市西城区紧邻中南海“红墙”，特殊的区位是一份光荣，更是一份使命。
+                            西城区广大党员干部深刻领悟到，红墙意识的根本就在于“人民”二字
+                        </p>
+                        <p> <span>作者：合肥华润</span>  <span>出版日期：2012/85/3</span> </p>
+                        <p> <span>书号：合肥华润</span>  <span>定价： <a >¥59.00</a></span> </p>
+                        <a href="book-details.html">  <button >内容简介</button>   </a>   <button>资源浏览</button>
+                    </li>
+
+                    <li >
+                        <img src="../img/newbook.jpg" >
+                        <h5>立体书城精选集</h5>
+                        <p>北京市西城区紧邻中南海“红墙”，特殊的区位是一份光荣，更是一份使命。
+                            西城区广大党员干部深刻领悟到，红墙意识的根本就在于“人民”二字
+                        </p>
+                        <p> <span>作者：合肥华润</span>  <span>出版日期：2012/85/3</span> </p>
+                        <p> <span>书号：合肥华润</span>  <span>定价： <a >¥59.00</a></span> </p>
+                        <a href="book-details.html">  <button >内容简介</button>   </a>   <button>资源浏览</button>
+                    </li>
+                </ul>
+
+                <div class="book_foot">
+                    <div class="book_foot_pages">
+                        <span class="foot_a"><a href="#"><</a> </span>
+                        <span class="foot_a"> <a href="#">1</a></span>
+                        <span class="foot_a"><a href="#">2</a> </span>
+                        <span class="foot_a"> <a href="#">3</a></span>
+                        <span class="foot_a"> <a href="#">4</a></span>
+                        <span class="foot_a"> <a href="#">5</a></span>
+                        <span class="foot_a"><a href="#">6</a> </span>
+                        <span class="foot_a"> <a href="#">7</a></span>
+                        <span class="foot_a"> <a href="#">8</a></span>
+                        <span class="foot_a"> <a href="#">9</a></span>
+                        <span class="foot_a"> <a href="#"> ></a></span>
+                        <select class="page">
+                            <option>10条/页</option>
+                            <option>10条/页</option>
+                            <option>10条/页</option>
+                            <option>10条/页</option>
+                            <option>10条/页</option>
+                        </select>
+                        跳转至 &nbsp<input type="text" class="pages">  &nbsp页
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--分页-->
+
+    </div>
+</div>
+<div class="down">
+    <div class="low">
+        <div class="low_text">
+            <h4>
+                地址：北京市海淀区中四环路45号&nbsp邮编100039&nbsp电话：0125-6985324&nbsp传真：2103-5874521&nbsp
+                邮箱：478gjrnfbfgfrgnj<br>
+                经销商服务：0125-9856412&nbsp零售服务：2587-9856324&nbsp交通地图
+            </h4>
+            <h4><a href="#">联系我们</a>&nbsp|&nbsp<a href="#">加入我们</a>&nbsp|&nbsp<a  href="#">繁体版</a>&nbsp|&nbsp<a href="#">English&nbspVerson</a></h4>
+            <h4>Copyright 2018.www.crtvup.com.cn All Rights Reserved&nbsp京ICP备14005380号&nbsp经营许可证编号：京ICP证150324号　
+                &nbsp互联网出版许可证 &nbsp 国家开放大学出版社</h4>
+        </div>
+    </div>
+</div>
+<script>
+    var liList = document.getElementById('js-type').children;
+    for( var i=0;i<liList.length;i++ ){
+        liList[i].onclick = function(){
+//            alert(this.getAttribute('data-value'));
+            document.getElementById("locations").innerHTML = this.getAttribute('data-value');
+        }
+    }
+</script>
+
+</body>
+</html>
